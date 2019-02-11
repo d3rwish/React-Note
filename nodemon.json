@@ -1,0 +1,7 @@
+{
+    "env": {
+        "MONGO_USER": "atlasRW1",
+        "MONGO_PASSWORD": "IrNmCEypairUfFcM",
+        "MONGO_DB": "notes-vault-app-dev"
+    }
+}

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Sigmar+One|Gloria+Hallelujah|Caveat|');
+@import url(https://fonts.googleapis.com/css?family=Patrick+Hand+SC);
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Indie Flower', cursive;
+}
+
+.form-control {
+  margin-bottom: 1.5em;
+  margin-top: 1.5rem;
+}
+
+.form-control label {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0rem auto 1.2rem;
+  text-align: center;
+}
+
+.form-control input, {
+  height: 1.5rem;
+}
+
+.form-control input,
+.form-control textarea {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-left: none;
+  border-top: none; 
+  border-right: none;
+  transition: 0.35s;
+  resize: none;
+  font-family: inherit;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+.form-control input:focus {
+  height: 2rem;
+  outline: none;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+  background: rgba(79, 163, 224, 0.06);
+}
+
+.form-control textarea:focus {
+  outline: none;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+  background: rgba(79, 163, 224, 0.06);
+}
+
+.form-control label,
+.form-control input,
+.form-control textarea {
+  width: 100%;
+  display: block;
+}
+
+.form-action {
+  margin: 2.5rem 1rem 2rem;
+}
+
+.form-action button,
+.btn {
+  font-size: 1.3rem;
+  font-weight: normal;
+  font-style: italic;
+  background: #ffffff;
+  border: dotted 1px rgba(65, 64, 62, 0.3);
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  padding: 0.25rem 1.5rem;
+  cursor: pointer;
+  margin: 0 0.8rem;
+  transition: all .35s ease;
+}
+
+.form-action,
+.form-action button,
+.btn {
+  color: rgba(65, 64, 62, 0.75);
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+.form-action button:hover,
+.form-action button:active,
+.btn:hover,
+.btn:active {
+  color: rgb(0, 0, 0);
+  background: #eaeaea;
+  font-weight: bold;
+  border: dotted 1px rgba(65, 64, 62, 0.6);
+  outline: none;
+}
+
+.form-action button:focus
+.btn:focus {
+  outline: none;
+}

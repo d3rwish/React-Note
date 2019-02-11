@@ -1,0 +1,39 @@
+.modal {
+    width: 80%;
+    position: fixed;
+    top: 20vh;
+    left: 10%;
+}
+
+.modal__header {
+    background: #eaeaea;
+    padding: 1rem;
+    border-radius: 255px 40px 225px 0px/40px 225px 0px 255px;
+    color: white;
+    text-align: center;
+}
+
+.modal__header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.modal__content {
+    padding: 1rem;
+    background: #ffffff;
+}
+
+.modal__actions {
+    background: #eaeaea;
+    display: flex;
+    justify-content: flex-end;
+    padding:  1rem;
+    border-radius: 255px 0px 225px 40px/0px 225px 40px 255px;
+}
+
+@media (min-width: 768px) {
+    .modal {
+        width: 40rem;
+        left: calc((100% - 40rem) / 2)
+    }
+}

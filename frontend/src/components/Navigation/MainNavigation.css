@@ -1,0 +1,70 @@
+.main-nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 3.5rem;
+    background: #eaeaea;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.3);
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.main-nav__logo h1 {
+    color: #41403E;
+    font-family: 'Sigmar One', cursive;
+    font-weight: normal;
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.main-nav__logo span {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: normal;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.main-nav__items ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+.main-nav__items li {
+    margin: 0 1rem;
+}
+
+.main-nav__items a,
+.main-nav__items button {
+    text-decoration: none;
+    color: #41403E;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.6rem;
+    font-weight: normal;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    vertical-align: middle;
+    margin: 0;
+    transition: all 200ms ease-in-out 0s;
+}
+
+.main-nav__items a:active,
+.main-nav__items a.active {
+    box-shadow: none;
+    border: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.main-nav__items button:hover,
+.main-nav__items a:hover {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
