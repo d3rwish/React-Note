@@ -2,7 +2,7 @@
     color: #41403E;
     width: 20rem;
     max-width: 80%;
-    margin: 10rem auto;
+    margin: 3rem auto;
     border: solid 1px #e8e8e8;
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
     box-shadow: 20px 38px 34px -26px rgba(58, 54, 54, 0.2);
@@ -15,4 +15,105 @@
     font-family: 'Sigmar One', cursive;
     text-align: center;
     color: #41403E;
+}
+
+.auth-error {
+    border: solid 1px #e8e8e8;
+    position: relative;
+    max-width: 23rem;
+    min-width: 15rem;
+    margin: 2rem auto;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    box-shadow: 22px 30px 34px -20px rgba(58, 54, 54, 0.2);
+}
+.auth-error::before {
+    content: 'ERR';
+    width: 10%;
+    height: 98%;
+    position: absolute;
+    bottom: 0px;
+    left: 1px;
+    display: flex;
+    color: #41403E;
+    background-color: #ff9b9b;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    border-right: dotted 1px #41403E;
+    border-top-left-radius: 255px 15px;
+    border-bottom-left-radius: 15px 255px;
+    box-sizing: border-box;
+}
+.auth-error::after {
+    content: '';
+    background-color: #ff9b9b;
+    width: 2%;
+    height: 98%;
+    position: absolute;
+    bottom: 0;
+    right: 1px;
+    border-left: dotted 1px #41403E;
+    border-top-right-radius: 15px 255px;
+    border-bottom-right-radius: 25px;
+}
+.auth-error-msg,
+.auth-error-msg p {
+    color: #41403E;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0.8rem 0;
+}
+
+
+
+
+.auth-msg {
+    border: solid 1px #e8e8e8;
+    position: relative;
+    max-width: 23rem;
+    min-width: 15rem;
+    margin: 2rem auto;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    box-shadow: 22px 30px 34px -20px rgba(58, 54, 54, 0.2);
+}
+.auth-msg::before {
+    content: 'MSG';
+    width: 10%;
+    height: 98%;
+    position: absolute;
+    bottom: 0px;
+    left: 1px;
+    display: flex;
+    color: #41403E;
+    background-color: #b1efa2;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    border-right: dotted 1px #41403E;
+    border-top-left-radius: 255px 15px;
+    border-bottom-left-radius: 15px 255px;
+    box-sizing: border-box;
+}
+.auth-msg::after {
+    content: '';
+    background-color: #b1efa2;
+    width: 2%;
+    height: 98%;
+    position: absolute;
+    bottom: 0;
+    right: 1px;
+    border-left: dotted 1px #41403E;
+    border-top-right-radius: 15px 255px;
+    border-bottom-right-radius: 25px;
+}
+.auth-msg-message,
+.auth-msg-message p {
+    color: #41403E;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0.8rem 0;
 }

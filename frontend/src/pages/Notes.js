@@ -102,6 +102,11 @@ class NotesPage extends Component {
         this.setState({noteCreating: false});
     }
 
+    deleteModalHandler = () => {
+        console.log("Delete!!!");
+        
+    }
+
     cancelModalHandler = () => {
         this.setState({noteCreating: false, selectedNote: null});
     }
@@ -187,7 +192,7 @@ class NotesPage extends Component {
                     <Modal   
                         title={this.state.selectedNote.title}
                         confirmText="Delete" 
-                        onConfirm={this.confirmModalHandler}
+                        onConfirm={this.deleteModalHandler}
                         onCancel={this.cancelModalHandler}>
                         <form>
                             <div className="form-control">
