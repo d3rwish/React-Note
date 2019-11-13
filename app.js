@@ -36,7 +36,8 @@ app.use(
 
 mongoose.connect(
     `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD
-        }@cluster0-o6xft.mongodb.net/${process.env.MONGO_DB}?retryWrites=true`
+        }@cluster0-o6xft.mongodb.net/${process.env.MONGO_DB}?retryWrites=true`,
+        {useUnifiedTopology: true, useNewUrlParser: true}
     ).then(() => {
     app.listen(8140);
 }).catch(err => {
